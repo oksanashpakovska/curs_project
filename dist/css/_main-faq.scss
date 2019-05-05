@@ -1,0 +1,27 @@
+.paper{
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.title_faq{
+    color: $color-text-6;
+    font-family: $font-regular;
+    font-size: 16px;
+    margin-left: 14px;
+    margin-top: 9px;
+    
+}
+.main_inner_text{
+    font-size: 11px;
+    padding: 20px;
+    font-family: $font-light;
+    text-align: justify;
+}
+.list1 li{
+    list-style: url(../img/ic_next.png);
+    text-align: justify;
+    color: #5e666e;
+     font-family: montserrat_light,sans-serif; 
+     font-family: $font-light;
+     font-size: 11px;
+}

@@ -1,0 +1,39 @@
+.btn-leave-reply{
+    height: 44px;
+    width: 175px;
+    background: $color-primary-7;
+    color: $color-text-6;
+    border: none;
+    font-family: $font-bolt;
+    text-transform: uppercase;
+    margin-right: 24px;
+    
+}
+.page-link{
+    color: $color-text-3;
+}
+.page-link:hover{
+    background: $color-primary-4;
+}
+.block-wrapper{
+    border: 1px;
+    background: $color-primary-9;
+    border-radius: 20px;
+    margin-top: 23px;
+}
+.text-response{
+    font-family: $font-light;
+    color: $color-text-3;
+    text-align: justify;
+    margin: 47px;
+    font-size: 13px;
+}
+.name1{
+    color: $color-text-5;
+    text-transform: uppercase;
+    font-family: $font-regular;
+}
+.fa-star{
+    background: $color-primary-5;
+    margin-top: 12px;
+}

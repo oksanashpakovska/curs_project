@@ -1,0 +1,105 @@
+@import 'colors';
+@import 'fonts';
+
+header{
+    .top-header{
+        background-color:$color-primary-1;
+       
+    }
+    .normal{
+        background: url(../img/icon_phone.png) no-repeat;
+        height:30px ;
+        width:35px ;
+    }
+    
+    .call__text{
+         color: #ffffff;
+         font-size: 14px;
+     }  
+     
+    .number{
+        color: #ffffff;
+        font-size: 14px;
+    }
+    .active{
+        background: url(../img/icon_phone_2.png) no-repeat;
+        height:30px ;
+        width:42px ;
+        
+    }
+    .call{
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+        
+        .socials{
+            
+                display: none;
+            color: #ffffff;
+            height: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .social__icons{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-top: 10px;
+        }
+            .socials__pinterest{
+                width: 39px;
+                height: 40px;
+                background: url(../img/p.png);
+            
+                
+            }
+            .socials__twitter{
+                width: 39px;
+                height: 40px;
+                background: url(../img/tw.png);
+               
+            }
+            .socials__facebook{
+                width: 39px;
+                height: 40px;
+                background: url(../img/f.png);
+                
+            }
+        
+      .middle-header{
+        margin: 0;
+        list-style-type: none;
+        
+      } 
+      .logo{
+        margin-top: 17px;
+        
+        padding-left: 83px;
+      } 
+      .nav__list{
+        height: 68px;
+        // display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        margin-top: 21px;
+      }
+      .nav__list li a{
+          color: #263562;
+          font-family: $font-extra_bold;
+          font-size: 10px;
+          text-decoration: none;
+          font-weight: bold;
+          text-transform: uppercase;
+      }
+          .nav__list li a:hover{
+              color: red;
+              border-bottom: 2px solid red;
+          }
+      
+      
+        }

@@ -1,0 +1,36 @@
+.img{
+    height: 114px;
+     width: 90px;
+    display: inline-block;
+    background: url(../img/pdf.png);
+    margin-top: 40px;
+}
+.text_p{
+color: $color-text-8;
+margin-top: -24px;
+}
+.price{
+    color: $color-text-2;
+}
+.table td{
+    color: $color-text-3;
+    font-family: $font-light;
+    font-size: 13px;
+}
+.img1{
+    background: url(../img/discounts20.png)no-repeat;
+    height: 111px;
+    width: 285px;
+}
+.line{
+    border-bottom: 1px solid $color-text-4;
+}
+.samples_page{
+    margin-top: 30px;
+}
+.text_d{
+    color: $color-text-3;
+    font-family: $font-light;
+    font-size: 13px;
+    text-align: center;
+}
